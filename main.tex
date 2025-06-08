@@ -1,0 +1,39 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage[russian,english]{babel}
+% Стиль: casual, classic, banking, oldstyle и fancy
+\moderncvtheme[green]{classic} % Можно заменить 'blue' на другие цвета
+\setlength{\hintscolumnwidth}{3.5cm}
+% \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+% Настройки страницы
+\usepackage[scale=0.75]{geometry}
+
+% Личные данные
+\firstname{Михаил}
+\familyname{Лисюткин}
+\address{}{Балашов, Саратовская область}
+% \mobile{+7 152 06077867}
+\email{mixail.lisyutkin@yandex.com}
+\homepage{https://github.com/Mi-Lis}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\begin{document}
+\maketitle
+\section{Образование}
+\cventry{2019--2023}{Бакалавр}{СГУ им. Н. Г. Чернышевского}{Саратов}{}{Прикладная математика и информатика}
+\cventry{2023--2025}{Магистратура}{СГУ им. Н. Г. Чернышевского}{Саратов}{}{Прикладная информатика}
+
+\section{Hard Skills}
+\cvitem{Проектирование}{UML, Базы Данных}
+\cvitem{Программирование}{Python (SymPy, SciPy), \LaTeX, SQL, Markdown, Git}
+\cvitem{Языки}{Английский — B1, Русский — родной}
+
+\section{Soft Skills}
+\cvitem{}{Готовность учиться, Самообучение, Критическое мышление}
+\cvitem{}{Адаптивность, Аналитичный склад ума, Коммуникабельность}
+\end{document}
